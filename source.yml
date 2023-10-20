@@ -95,17 +95,29 @@ overrides:
       branch: $ROCK_BRANCH
 
     - rtt:
-      github: rock-core/rtt
+      github: https://github.com/rock-core/rtt
+      branch: toolchain-2.9.1
+
     - orogen:
-      github: rock-core/tools-orogen
+      github: https://github.com/rock-core/tools-orogen
+      branch: master
+
     - typelib:
-      github: rock-core/tools-typelib
+      github: https://github.com/rock-core/tools-typelib
+      branch: master
+
     - utilrb:
-      github: rock-core/tools-utilrb
+      github: https://github.com/rock-core/tools-utilrb
+      branch: master
+
     - rtt_typelib:
-      github: rock-core/tools-rtt_typelib
+      github: https://github.com/rock-core/tools-rtt_typelib
+      branch: master
+
     - metaruby:
-      github: rock-core/tools-metaruby
+      github: https://github.com/rock-core/tools-metaruby
+      branch: master
+
     - (ocl|log4cpp):
       branch: master
 
